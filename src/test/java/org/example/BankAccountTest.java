@@ -11,7 +11,6 @@ class BankAccountTest {
         a.addBalance(100);
         assertEquals(100,a.getBalance());
     }
-
     @Test
     void deductBalanceTest() {
         BankAccount a=new BankAccount(1);
@@ -19,7 +18,6 @@ class BankAccountTest {
         a.deductBalance(50);
         assertEquals(50,a.getBalance());
     }
-
     @Test
     void deductBalanceExcTest() {
         BankAccount a=new BankAccount(1);
