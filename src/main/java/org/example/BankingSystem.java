@@ -2,8 +2,8 @@ package org.example;
 
 public class BankingSystem {
     private int password;
-    public BankingSystem(int p) {
-        this.password=p;
+    public BankingSystem(int password) {
+        this.password=password;
     }
 
     public void transaction(BankAccount from, BankAccount to, int amount, int pass) {
